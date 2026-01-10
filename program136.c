@@ -1,0 +1,61 @@
+#include <stdio.h>
+#include<stdlib.h>
+
+//typedef IPTR int * ; its wrong syntax
+typedef int * IPTR ;
+
+int FrequencyCalculate(int Arr[] , int iSize , int iNo)
+{
+    int iCnt = 0 , iCount = 0 ;
+
+    for (iCnt = 0; iCnt < iSize; iCnt++)
+    {
+        if (Arr[iCnt]  == iNo )
+        {
+            iCount++;
+        }
+    }
+    
+    return iCount;
+}
+
+int main()
+{
+    int iLength = 0 , iCnt = 0 , iRet = 0 , iValue = 0 ;
+    IPTR iPtr = NULL;
+
+    printf("Enter the number of EElements : \n");
+    scanf("%d",&iLength);
+
+    //STEP 1 :Allocate the memory
+    iPtr = (IPTR) malloc (iLength * sizeof(int));
+
+    if (NULL == iPtr)
+    {
+        printf("Unable to alloate memory");
+        return -1 ;
+    }
+
+    printf("Enter the Values : \n");
+    
+    for (iCnt = 0; iCnt < iLength; iCnt++)
+    {
+        scanf("%d",&iPtr[iCnt]);
+    }
+    
+    printf("Enter the number to calculate the Frequncy : \n");
+    scanf("%d",&iValue);
+
+    //STEP 2 : Use the memory
+    //Call to the Function which contains bussiness logic
+    
+    iRet = FrequencyCalculate(iPtr,iLength,iValue);
+
+    printf("Frequency of %d is : %d\n",iValue,iRet);
+
+    //STEP : 3 Free the memory 
+
+    free(iPtr);
+
+    return 0 ;
+}
