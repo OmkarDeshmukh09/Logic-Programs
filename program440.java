@@ -18,7 +18,8 @@ class SinglyLL
     }
 
     public void InsertFirst(int no)
-    {}
+    {
+}
     
     public void InsertLast(int no)
     {}
