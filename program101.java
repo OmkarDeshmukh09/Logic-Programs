@@ -6,7 +6,7 @@ class ArrayX
     {
         int i = 0;
 
-        System.out.println("Elements of the array are : ");
+        System.out.println("Elements of  the array are : ");
         
         for(i = 0; i < Brr.length; i++)
         {
