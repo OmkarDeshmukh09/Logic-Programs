@@ -13,7 +13,7 @@ class Pattern
         {
             if((iCnt % 2) == 0)
             {
-                System.out.print("*\t");
+                System.out.print("*\t ");
             }
             else
             {
