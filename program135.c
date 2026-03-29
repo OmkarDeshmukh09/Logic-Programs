@@ -24,7 +24,7 @@ int main()
     int iLength = 0 , iCnt = 0 , iRet = 0 ;
     IPTR iPtr = NULL;
 
-    printf("Enter the number of EElements : \n");
+    printf("Enter the number of EElements :\n");
     scanf("%d",&iLength);
 
     //STEP 1 :Allocate the memory
