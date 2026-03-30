@@ -4,7 +4,7 @@
 void Swap(int * p , int * q)
 {
     int temp = 0;
-    temp = *p;
+    temp =  *p;
     *p = *q;
     *q = *p;
 }
