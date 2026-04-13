@@ -1,5 +1,5 @@
 import java.util.*;  
-
+ 
 class ArrayX
 {
     public void Display(int Brr[])
