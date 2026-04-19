@@ -7,7 +7,7 @@ struct node
     struct node *next ;
 };
 
-typedef struct node NODE;   
+typedef struct node NODE;    
 
 int main()
 {
