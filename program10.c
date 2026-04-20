@@ -1,4 +1,4 @@
-/* 
+/*  
 Steps to understand
     Step 1 : Understand the problem statement 
     Step 2 : Write the algorith
