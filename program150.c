@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<stdlib.h>
+#include<stdlib.h> 
 
 //typedef IPTR int * ; its wrong syntax
 typedef int * IPTR ;
