@@ -1,5 +1,5 @@
 /*
-        input : 8
+        input : 8 
         output: 1   A   3   B   5   C   7   D
         index : 1   2   3   4   5   6   7   8   
         
