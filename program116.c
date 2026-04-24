@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void Display(int *Arr)      //will changee the name from ptr to Arr to knowh that this ia a pointer
+void Display(int *Arr)      //will changee the name from ptr to Arr to knowh that this ia a pointer 
 {
     int iCnt = 0 ;
     
