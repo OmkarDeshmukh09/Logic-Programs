@@ -4,7 +4,7 @@ void Display(int Arr[])      //will changee the name from ptr to Arr to knowh th
 {
     int iCnt = 0 ;
     
-    for (iCnt = 0; iCnt < 7 ; iCnt++)
+    for (iCnt = 0; iCnt < 7 ; iCnt++) 
     {
         printf("%d\n", Arr[iCnt] );
     }
