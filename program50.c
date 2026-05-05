@@ -1,5 +1,5 @@
 //Factors of 6
-
+ 
 #include <stdio.h>
 
 void DisplayFactors(int ino)
