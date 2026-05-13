@@ -1,4 +1,4 @@
-//Input  : 6
+//Input  : 6 
 //Output : 1    *   2   *   3   *
 
 import java.util.*;
