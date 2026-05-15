@@ -1,4 +1,4 @@
-#include <stdio.h> 
+#include <stdio.h>  
 
 void Display(int *Arr)      //will changee the name from ptr to Arr to knowh that this ia a pointer
 {
