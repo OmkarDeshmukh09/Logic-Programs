@@ -12,7 +12,7 @@ void Display(int Arr[] , int iSize )
 }
 
 int main()
-{
+{ 
     int Arr[] = {10,20,30,40};  
 
     Display(Arr,4);       //Display( 100(address) , 4 (Value) )
