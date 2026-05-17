@@ -9,7 +9,7 @@ void Display(int Arr[] , int iSize )
         printf("%d\n", Arr[iCnt] );
     }
  
-}
+} 
 
 int main()
 { 
