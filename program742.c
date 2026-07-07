@@ -81,6 +81,13 @@ int main()
     Insert(&head, 51);
     
     Inorder(head);
+    PNODE head = NULL;          //root pn bolu shkato   
+
+    Insert(&head, 11);
+    Insert(&head, 21);
+    Insert(&head, 51);
+    
+    Inorder(head);
 
     return 0 ;
 }
