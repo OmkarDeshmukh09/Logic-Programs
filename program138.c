@@ -51,7 +51,7 @@ int main()
     printf("Enter the Values : \n");
     
     for (iCnt = 0; iCnt < iLength; iCnt++)
-    {
+    { 
         scanf("%d",&iPtr[iCnt]);
     }
     
